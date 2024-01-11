@@ -39,8 +39,8 @@ export default function App() {
   const directMean = directRequests.reduce(
     (total, cur) => total + cur, 0) / directRequests.length;
 
-  const supavisorMean = directRequests.reduce(
-    (total, cur) => total + cur, 0) / directRequests.length;
+  const supavisorMean = supavisorRequests.reduce(
+    (total, cur) => total + cur, 0) / supavisorRequests.length;
 
   return <div id="container">
     <ol>
